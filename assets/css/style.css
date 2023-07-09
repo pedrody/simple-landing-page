@@ -179,3 +179,55 @@ a {
     height: 100vh;
     text-align: center;
 }
+
+.reviews-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.reviews-main-heading {
+    margin-bottom: 1rem;
+}
+
+.reviews-description {
+    padding-bottom: 8rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+}
+
+.grid h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.grid p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.grid span {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.profile-pic {
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

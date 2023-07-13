@@ -10,13 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
-                <a href="#intro">LOGO</a>
+                <a href="#intro" onclick="getElementById('close-menu').checked = false;">LOGO</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#jobs">Jobs</a></li>
                     <li><a href="#reviews">Reviews</a></li>
@@ -262,5 +264,7 @@
     <footer id="footer" class="white-bg ">
         <p><a rel="nofollow" target="_blank" href="https://github.com/pedrody">Feito com <span class="heart">❤</span> por Pedro Azevedo</a></p>
     </footer>
+
+    <a class="back-to-top" href="#intro">➤</a>
 </body>
 </html>

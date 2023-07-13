@@ -604,7 +604,7 @@ tfoot td, table th {
     }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 440px) {
     h2 {
         margin: 0 auto 5rem;
         font-size: 5rem;
@@ -617,7 +617,7 @@ tfoot td, table th {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .faq-header h2 {
         font-size: 4rem;
     }
